@@ -1,0 +1,13 @@
+.user-table {
+  border: 1px solid black;
+}
+
+td{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.row:hover {
+  background-color: rgb(72, 115, 163);
+  cursor: pointer;
+}

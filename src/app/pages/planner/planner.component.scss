@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Roboto:ital,wght@1,300&display=swap');
+
+.planner-section {
+  background: linear-gradient(to right, #91fcf6 , #fdbfff);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Festive', cursive;
+}
+
+.planner-wrapper {
+  background-color: #fef5ff;
+  height: fit-content;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  max-width: 500px;
+}
+
+.planner-action-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.planner-task {
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.planner-task-description {
+  display: flex;
+  align-items: center;
+}
+
+.task-input {
+  font-size: 20px;
+  width: 100%;
+}
+
+.filter-active {
+  background-color: firebrick;
+}
+
+.btn-add {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #18181a;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 20px;
+}
+
+.btn-add:hover {
+   box-shadow: rgb(251, 138, 255) 0px 18px 36px -12px inset, rgb(255, 255, 255) 0px 18px 36px -18px inset;
+}
+
+.btn-delete-task {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #18181a;
+  display: inline-block;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 30px;
+}
+
+.btn-delete-task:hover {
+   box-shadow: rgba(251, 138, 255, 0.25) 0px 18px 36px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
+}
+
+.planner-footer {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear-all {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #18181a;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 20px;
+}
+
+.clear-all:hover {
+   box-shadow: rgba(251, 138, 255, 0.25) 0px 18px 36px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
+}
+
+

@@ -1,0 +1,21 @@
+<section class="login-section">
+  <form class="login-form" [formGroup]="loginForm">
+    <h3 class="login-form-title">Login form</h3>
+
+    <label for="username">User name: </label>
+    <input class="input-field" formControlName="username" type="text" placeholder="Username" id="username">
+    <small *ngIf="loginForm.touched && loginForm.get('username')?.hasError('required')">
+      This fiels id required
+    </small>
+    <small *ngIf="loginForm.touched && loginForm.get('username')?.hasError('required')">
+      Minimum length 3
+    </small>
+
+    <label for="password">Password: </label>
+    <input class="input-field" formControlName="password" type="password" placeholder="Password" id="password">
+
+    <button class="login-button" (click)="login()">Log In</button>
+  </form>
+</section>
+
+
